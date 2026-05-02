@@ -1,0 +1,2 @@
+insert into pessoas values
+(default, 'Caique', '2001-04-11', 'M', '76.0', '1.82', 'Finlandia');
