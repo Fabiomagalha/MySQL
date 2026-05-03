@@ -28,3 +28,22 @@ insert into teste value
 select * from teste;
 
 drop table if exists testes;
+----------------------------
+update cursos
+set nome = 'HTML5'
+where idcurso = '1';
+
+update cursos 
+set nome = 'PHP', ano = '2015'
+where idcurso = '4';
+
+update cursos 
+set nome = 'java', carga = '40', ano = '2015'
+where idcurso = '5'
+limit 1;
+
+delete from cursos
+where ano='2018'
+limit 3;
+
+select * from cursos
